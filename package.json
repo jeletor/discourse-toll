@@ -1,0 +1,42 @@
+{
+  "name": "discourse-toll",
+  "version": "0.1.0",
+  "description": "L402 micropayment middleware for discourse — trust-weighted, progressive pricing for forums and APIs",
+  "main": "index.cjs",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "author": "Jeletor <jeletor@jeletor.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeletor/discourse-toll"
+  },
+  "keywords": [
+    "l402",
+    "lightning",
+    "bitcoin",
+    "discourse",
+    "forum",
+    "micropayment",
+    "paywall",
+    "trust",
+    "ai-wot",
+    "spam",
+    "moderation",
+    "nostr"
+  ],
+  "files": [
+    "index.cjs",
+    "index.d.ts",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "nostr-tools": "^2.10.4",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
+}
