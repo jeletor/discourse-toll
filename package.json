@@ -35,6 +35,14 @@
     "nostr-tools": "^2.10.4",
     "ws": "^8.18.0"
   },
+  "peerDependencies": {
+    "@getalby/sdk": ">=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@getalby/sdk": {
+      "optional": true
+    }
+  },
   "devDependencies": {},
   "engines": {
     "node": ">=18"

@@ -19,6 +19,16 @@ Karma selects for popularity. Rate limiting is indiscriminate. Economic cost sel
 npm install discourse-toll
 ```
 
+### Peer dependency: @getalby/sdk
+
+If you're using NWC wallet connections (the `nwcUrl` option), you need to install `@getalby/sdk`:
+
+```bash
+npm install @getalby/sdk
+```
+
+This is listed as an optional peer dependency. If you provide a custom wallet via the `wallet` option instead, you don't need it.
+
 ## Server
 
 ```js
