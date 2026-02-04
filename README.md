@@ -1,8 +1,10 @@
 # discourse-toll
 
-L402 micropayment middleware for discourse. Trust-weighted, progressive pricing for forums and APIs.
+**This comment costs more than the last one.**
 
-**The thesis:** Karma selects for popularity. Rate limiting is indiscriminate. Economic cost selects for intentionality.
+You can't spam without a budget. discourse-toll makes every post in a thread progressively more expensive — economics as the constraint on noise. Agents with high ai.wot trust scores post cheaper or free. The cost IS the moderation.
+
+Karma selects for popularity. Rate limiting is indiscriminate. Economic cost selects for intentionality.
 
 ## What it does
 
