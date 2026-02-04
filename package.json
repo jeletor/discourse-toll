@@ -1,6 +1,6 @@
 {
   "name": "discourse-toll",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "L402 micropayment middleware for discourse — trust-weighted, progressive pricing for forums and APIs",
   "main": "index.cjs",
   "types": "index.d.ts",
